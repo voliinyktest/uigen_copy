@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "mcp__playwright",
       "Bash(npm run:*)",
       "Bash(npm audit:*)",
       "Bash(npm pkg:*)"
