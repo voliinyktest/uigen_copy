@@ -63,7 +63,7 @@ export function SignInForm({ onSuccess }: SignInFormProps) {
         </div>
       )}
 
-      <Button type="submit" className="w-full" disabled={isLoading}>
+      <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 text-white border-0" disabled={isLoading}>
         {isLoading ? "Signing in..." : "Sign In"}
       </Button>
     </form>

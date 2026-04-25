@@ -62,7 +62,7 @@ export function SignUpForm({ onSuccess }: SignUpFormProps) {
           disabled={isLoading}
           minLength={8}
         />
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-muted-foreground">
           Must be at least 8 characters long
         </p>
       </div>
@@ -85,7 +85,7 @@ export function SignUpForm({ onSuccess }: SignUpFormProps) {
         </div>
       )}
 
-      <Button type="submit" className="w-full" disabled={isLoading}>
+      <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 text-white border-0" disabled={isLoading}>
         {isLoading ? "Creating account..." : "Sign Up"}
       </Button>
     </form>
